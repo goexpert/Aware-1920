@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*----------------------------
+ * 리셋 영역 ( 아마 공통 모듈이 될 )
+ */
+html, body, ul {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style-type: none; }
+
+/*
+ * 리셋 영역 ( 아마 공통 모듈이 될 )
+ ----------------------------*/
+html {
+  font-size: 0.625rem; }
+
+.slider-main {
+  height: 48rem; }
+
+.slider-category {
+  background: powderblue;
+  height: 48rem; }
+
+/*# sourceMappingURL=slider.css.map */
