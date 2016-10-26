@@ -458,9 +458,52 @@
   margin-left: 1920px;
 }
 
-body {
+/*----------------------------
+ * 리셋 영역 ( 아마 공통 모듈이 될 )
+ */
+html, body, ul {
   margin: 0;
   padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+ * 리셋 영역 ( 아마 공통 모듈이 될 )
+ ----------------------------*/
+body {
+  font-size: 0.625rem;
+  font-family: 'Varela Round', sans-serif;
+  color: #222222;
+}
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+.PT-serif {
+  font-family: "PT Serif", serif;
+  font-family-font-style: italic;
+}
+
+.readable-hidden {
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+}
+
+.readable-hidden-1 {
+  position: absolute;
+  left: -9999em;
 }
 
 /*# sourceMappingURL=style.css.map */
