@@ -1,4 +1,2 @@
 .most-loved div {
   height: 360px; }
-  .most-loved div:nth-child(odd) {
-    background: yellow; }
